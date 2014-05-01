@@ -3,13 +3,13 @@
  */
 var SimpleView = Backbone.View.Extend({});
 var simpleView = new SimpleView();
-console.log(simpleView.el);     // => <div></div>
+console.log(simpleView.el); // => <div></div>
 
 var SimpleView = Backbone.View.Extend({
-   tagname: 'li'
+    tagname: 'li'
 });
 var simpleView = new SimpleView();
-console.log(simpleView.el);     // => <li></li>
+console.log(simpleView.el); // => <li></li>
 
 //
 var TodoView = Backbone.View.Extend({
@@ -18,7 +18,7 @@ var TodoView = Backbone.View.Extend({
     className: 'todo'
 });
 var todoView = new TodoItem();
-console.log(todoView.el);       // => <article id="todo-view" class="todo"></article>
+console.log(todoView.el); // => <article id="todo-view" class="todo"></article>
 
 // use jQuery to get HTML of this
 // .el is a DOM element
@@ -36,12 +36,14 @@ var TodoView = new Backbone.View.Extend({
         this.$el.html(html);
     }
 });
-var todoView = new TodoView({ model: todoItem });
+var todoView = new TodoView({
+    model: todoItem
+});
 todoView.render();
-console.log(todoView.el);   // => <article id="todo-view" class="todo"><h3>Pick up milk</h3></article>
+console.log(todoView.el); // => <article id="todo-view" class="todo"><h3>Pick up milk</h3></article>
 
 // using templates
-var TodoView = new Backbone.View.Extend({
+var TodoView = new Backbone.View.extend({
 
     template: _.template('<h3><%= description %></h3>'),
 
@@ -50,9 +52,11 @@ var TodoView = new Backbone.View.Extend({
         this.$el.html(this.template(attributes));
     }
 });
-var todoView = new TodoView({ model: todoItem });
+var todoView = new TodoView({
+    model: todoItem
+});
 todoView.render();
-console.log(todoView.el);   // => <article id="todo-view" class="todo"><h3>Pick up milk</h3></article>
+console.log(todoView.el); // => <article id="todo-view" class="todo"><h3>Pick up milk</h3></article>
 
 // template engines
 // Underscore.js
@@ -70,24 +74,24 @@ console.log(todoView.el);   // => <article id="todo-view" class="todo"><h3>Pick 
 // View Events
 var TodoView = new Backbone.View.Extend({
 
-   events: {
-       "click h3": "alertStatus"
-   },
-   alertStatus: function(e) {
-       alert("you clicked me");
-   }
+    events: {
+        "click h3": "alertStatus"
+    },
+    alertStatus: function(e) {
+        alert("you clicked me");
+    }
 });
 // the above scopes the selector via the jQuery delegate method
 // ex: this.$el.delegate('h3, 'click', alertStatus);
 
 var DocumentView = Backbone.View.extend({
-   events: {
-       'dbClick'                : 'open',
-       'click .icon.doc'        : 'select',
-       'click .show_notes'      : 'toggleNotes',
-       'click .title .lock'     : 'editAccessLevel',
-       'mouseover .title .date' : 'showTooltip'
-   }
+    events: {
+        'dbClick': 'open',
+        'click .icon.doc': 'select',
+        'click .show_notes': 'toggleNotes',
+        'click .title .lock': 'editAccessLevel',
+        'mouseover .title .date': 'showTooltip'
+    }
 });
 
 // events: { "<event> <selector>": "<method>" }
@@ -121,7 +125,9 @@ var DocumentView = Backbone.View.extend({
  */
 
 //c1
-var AppointmentView = Backbone.View.extend({tagName: 'li'});
+var AppointmentView = Backbone.View.extend({
+    tagName: 'li'
+});
 
 //c2
 var AppointmentView = Backbone.View.extend({
@@ -131,7 +137,7 @@ var AppointmentView = Backbone.View.extend({
 
 // c3
 var AppointmentView = Backbone.View.extend({
-    render: function(){
+    render: function() {
         var html = '<li>' + this.model.get('title') + '</li>';
         this.$el.html(html);
     }
@@ -141,7 +147,7 @@ var AppointmentView = Backbone.View.extend({
 //c4
 var AppointmentView = Backbone.View.extend({
     template: _.template('<span><%= title %></span>'),
-    render: function(){
+    render: function() {
         var title = this.model.toJSON();
         this.$el.html(this.template(title));
     }
@@ -150,8 +156,12 @@ var AppointmentView = Backbone.View.extend({
 //c5
 var AppointmentView = Backbone.View.extend({
     template: _.template('<span><%= title %></span>'),
-    events: { 'click' : function(){ alert(this.model.get('title')) }},
-    render: function(){
+    events: {
+        'click': function() {
+            alert(this.model.get('title'))
+        }
+    },
+    render: function() {
         this.$el.html(this.template(this.model.toJSON()));
     }
 });
@@ -160,12 +170,14 @@ var AppointmentView = Backbone.View.extend({
 var AppointmentView = Backbone.View.extend({
     template: _.template('<span><%= title %></span>'),
 
-    events: { "dblclick span": "alertTitle" },
-    alertTitle: function(){
+    events: {
+        "dblclick span": "alertTitle"
+    },
+    alertTitle: function() {
         alert(this.model.get('title'));
     },
 
-    render: function(){
+    render: function() {
         this.$el.html(this.template(this.model.toJSON()));
     }
 });
