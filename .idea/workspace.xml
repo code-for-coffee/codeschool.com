@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0d83aba-e899-40da-9569-181d1a03d790" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backbone.js/section4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f0d83aba-e899-40da-9569-181d1a03d790" name="Default" comment="" />
     <ignored path="codeschool.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +26,7 @@
       <file leaf-file-name="section1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backbone.js/section1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="735">
               <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
@@ -39,11 +36,9 @@
       <file leaf-file-name="section2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backbone.js/section2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="1605">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1635">
               <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#46#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,11 +46,9 @@
       <file leaf-file-name="section3.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backbone.js/section3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2625">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2655">
               <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#46#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1690" />
-    <option name="y" value="-258" />
+    <option name="x" value="1659" />
+    <option name="y" value="-257" />
     <option name="width" value="1107" />
     <option name="height" value="1022" />
   </component>
@@ -183,6 +176,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -193,12 +194,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -206,16 +209,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -239,7 +232,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1690" y="-258" width="1107" height="1022" extended-state="0" />
+    <frame x="1659" y="-257" width="1107" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -255,11 +248,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -282,11 +275,42 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backbone.js/section1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="735">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone.js/section2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1635">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone.js/section3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2655">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone.js/section4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript-3/closures/closure_cove.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -294,7 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1575">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -302,7 +325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2340" max-vertical-offset="2430">
           <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,7 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="825">
           <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -318,7 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="765">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -326,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="750">
           <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,7 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -344,7 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -352,7 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="555">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -360,7 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -368,7 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,7 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="555">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="360">
           <caret line="5" column="146" selection-start-line="5" selection-start-column="146" selection-end-line="5" selection-end-column="146" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,7 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -432,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1545">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1695" max-vertical-offset="2400">
           <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="795">
           <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,9 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5659164" vertical-offset="128" max-vertical-offset="750">
           <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="735">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -498,9 +494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="1605">
           <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,9 +502,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2625">
           <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
