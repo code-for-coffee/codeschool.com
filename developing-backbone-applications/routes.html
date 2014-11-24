@@ -16,15 +16,16 @@
         Backbone.history.start();
         /*$(document).on('click', 'a:([data-route])', function (evt) {
 
-            var href = $(this).attr('href');
-            var protocol = this.protocol + '//';
+         var href = $(this).attr('href');
+         var protocol = this.protocol + '//';
 
-            if (href.slice(protocol.length) !== protocol) {
-                evt.preventDefault();
-                App.Routes.BaseRouter.navigate(href, true);
-            }
-        });*/
+         if (href.slice(protocol.length) !== protocol) {
+         evt.preventDefault();
+         App.Routes.BaseRouter.navigate(href, true);
+         }
+         });*/
     });
+
 </script>
 
 <body>
@@ -45,8 +46,10 @@
 
         <article id="issues">
             <ul>
-                <ol>Correcty return URL with pushState enabled (including subdirectories). Backbone by default overrites this.</ol>
-                <ol><a href="#todo/42"</ol>
+                <li>Correcty return URL with pushState enabled (including subdirectories). Backbone by default overrites this.</li>
+                <li><a href="#todo/42">42</a></li>
+                <li><a href="#todo/ele">ele</a></li>
+                <li><a href="#todo/yolo">yolo</a></li>
             </ul>
         </article>
 

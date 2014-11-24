@@ -31,7 +31,12 @@ App.Routes.BaseRouter = Backbone.Router.extend({
 		$("#body-content").html("About Content");
 	},
 	getTodo: function(id) {
-		console.log("you're trying tor reach: " + id);
+		var box = document.createElement("div");
+		box.innerHTML = "Item: " + id;
+		var snippet = document.createDocumentFragment();
+		snippet.appendChild(box);
+		var c = $("#body-content");
+		$(c).html(snippet);
 	},
 	searchTodos: function(query, page) {
 		var page_number = page || 1;
