@@ -1,0 +1,40 @@
+/* style.css */
+
+body {
+	margin: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+h3 {
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin: .25rem;
+}
+h4 {
+	font-size: 1.2rem;
+	font-style: italic;
+	margin: .25rem;
+}
+code {
+	font-family: 'Droid Sans Mono', "Courier";
+	color: navy;
+}
+
+.container {
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.left {
+	display: block;
+	float: left;
+	width: 40%;
+}
+.right {
+	display: block;
+	float: right;
+	width: 40%;
+}
+.clearfix:after: {
+	clear: both;
+}
+
