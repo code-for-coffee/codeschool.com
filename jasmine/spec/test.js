@@ -1,5 +1,5 @@
 // test spec
-describe("Sample Jasmine Spec based on", function() {
+describe("Sample Jasmine Spec based on arrays", function() {
 
 	it("get item from array", function() {
 
