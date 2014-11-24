@@ -22,4 +22,8 @@ test = function() {
 		return data.pop();
 	};
 
+	this.data = function() {
+		return data;
+	}
+
 }
