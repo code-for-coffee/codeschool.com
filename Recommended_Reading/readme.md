@@ -14,6 +14,7 @@ Hi there! If you're looking at this, you're probably looking for a place to get 
 - Javascript Road Trip - https://www.codeschool.com/courses/javascript-road-trip-part-1
 - Javascript is Sexy: How to learn Javascript Correctly - http://javascriptissexy.com/how-to-learn-javascript-properly/
 - Codeacademy: Javascript - http://www.codecademy.com/en/tracks/javascript
+- Try jQuery - http://try.jquery.com/
 
 ####Bookmarks
 - CSS Tricks - https://css-tricks.com/
