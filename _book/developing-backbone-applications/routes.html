@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Backbone routes</title>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script type="text/javascript" src="routes.js"></script>
+</head>
+
+<script type="text/javascript">
+    $(document).ready(function(event) {
+        var view = new App.Views.Body();
+        var appRouter = new App.Routes.BaseRouter();
+        Backbone.history.start();
+        /*$(document).on('click', 'a:([data-route])', function (evt) {
+
+         var href = $(this).attr('href');
+         var protocol = this.protocol + '//';
+
+         if (href.slice(protocol.length) !== protocol) {
+         evt.preventDefault();
+         App.Routes.BaseRouter.navigate(href, true);
+         }
+         });*/
+    });
+
+</script>
+
+<body>
+
+    <header>
+        <hgroup>
+            <h1>
+                Backbone Routes
+            </h1>
+            <h2>
+                Experimental Scratch Pad
+            </h2>
+        </hgroup>
+        <hr>
+    </header>
+
+    <section>
+
+        <article id="issues">
+            <ul>
+                <li>Correcty return URL with pushState enabled (including subdirectories). Backbone by default overrites this.</li>
+                <li><a href="#todo/42">42</a></li>
+                <li><a href="#todo/ele">ele</a></li>
+                <li><a href="#todo/yolo">yolo</a></li>
+            </ul>
+        </article>
+
+        <article id="body-content">
+            Sample view.
+        </article>
+
+    </section>
+
+</body>
+</html>
